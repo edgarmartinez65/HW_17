@@ -1,5 +1,28 @@
 body {
+    margin: 0;
+    padding: 0;
     background-color: black;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+nav {
+    /* background-color: purple; */
+    width: 100%;
+    overflow: auto;
+    text-align: right;
+}
+header {
+    width: 100%;
+    height: 100%;
+
+}
+footer {
+    width: 100%;
+    height: 100%;
+    /* background-color: purple; */
+    text-align: center;
 }
 h1 {
     color: white;
@@ -9,20 +32,14 @@ p {
 }
 li {
     color: white;
-}
-.navigation {
     display: inline-block;
-    vertical-align: top;
+    padding: 15px 30px;
 }
-
 .logo {
-    width: 23%;
-    padding: 1;
-    text-align: center;
-}
-.nav {
-    width: 73%;
-    padding: 1%;
+    position: absolute;
+    margin-top: 3px;
+    padding: 10px;
+    /* background-color: saddlebrown; */
 }
 ul {
     width: 50%;
@@ -37,11 +54,10 @@ ul {
 .content {
     width: 500px;
     margin: 0 auto;
+    text-align: left;
 }
-.footer {
-    background-color: #373738;
-    padding: center;
-}
-.logo {
-    margin-right: absolute;
+.myFace {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
